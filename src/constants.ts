@@ -1,5 +1,5 @@
 function toLowerCase(aValue: string): string {
-    return aValue.toLowerCase();
+    return aValue.toLowerCase() + 'DERIVED_CONSTANT';
 }
 
 export const SIMPLE_CONSTANT = 'SIMPLE_CONSTANT';
