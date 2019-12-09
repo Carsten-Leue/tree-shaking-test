@@ -1,6 +1,6 @@
 {
   "name": "tree-shaking-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "index.js",
   "repository": "https://github.com/Carsten-Leue/tree-shaking-test.git",
@@ -21,6 +21,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "ngPackage": {
-  }
+  "ngPackage": {}
 }
