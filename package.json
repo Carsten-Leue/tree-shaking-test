@@ -1,0 +1,26 @@
+{
+  "name": "tree-shaking-test",
+  "version": "1.0.0",
+  "private": false,
+  "main": "index.js",
+  "repository": "https://github.com/Carsten-Leue/tree-shaking-test.git",
+  "author": "Dr. Carsten Leue <carsten.leue@gmx.net>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "ng-packagr": "^5.7.1",
+    "rxjs": "^6.4.0",
+    "typescript": ">=3.4 <3.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "ngPackage": {
+  }
+}
